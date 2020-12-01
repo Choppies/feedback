@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choppies Feedback</title>
+    <link rel="stylesheet" href="exaple.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Choppies Feedback</h3>
+          <p class="text">
+            Send us feedback regarding our services; the feedback can be a complaint or good complement.Once the feedback is sent, one of our employees will get in contact with you either email or a call. Thank you for your time and continue shopping with us.  Choppies, value for your money. 
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>rigil(located opposite shineshine)</p>
+            </div>
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Ganga (located in Village mall)</p>
+            </div>
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Monatavista (located behind Game mall)</p>
+            </div>
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Hoovernit (located next to pick n pay)</p>
+            </div>
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Dragongold (located in Tti town)</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>share the link with freinds :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form id="FeedbackForm" action="index.html" autocomplete="off">
+            <h3 class="title">Send Us Feedback</h3>
+            <div class="alert">your feedback have been sent.</div>
+            <div class="input-container">
+              <input type="text" name="FirstName" class="input" id="FirstName" required/>
+              <label for="">FirstName</label>
+              <span>FirstName</span>
+            </div>
+
+            <div class="input-container">
+              <input type="text" name="Surname" class="input" id="Surname" required/>
+              <label for="">Surname</label>
+              <span>Surname</span>
+            </div>
+
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" id="Phone"required />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+
+           <div class="input-container">
+              <input type="text" name="Which" class="input"  id="Which_Store"required />
+              <label for="">Which Store</label>
+              <span>Which Store</span>
+            </div>
+             
+            <div class="input-container textarea">
+              <textarea name="message" class="input" id="Message" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+            <input type="submit" value="logout" class="btn" id="btnlogout" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+ <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+    <script src="amo.js"></script>
+  </body>
+</html>
